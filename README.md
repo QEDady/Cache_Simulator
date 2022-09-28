@@ -1,9 +1,11 @@
 # Cache_Simulator
-This project takes as an input a file containing a sequence of memory addresses in the RAM. The output will be the entries corresponding to the cache chosen along with the hit and miss ratios, and the AMAT
+This project takes as an input a file containing a sequence of memory addresses in the RAM. The output will be the entries corresponding to the cache chosen along with the hit and miss ratios, and the AMAT.
+
+This project is for the "Computer Organization and Assembly Language Programming" course. It was developed by Amr Sallam, Zeyad Tolba, and Amer Elsheikh in Spring 2022.
 
 ## User Guide:
 1. Enter the cache size (S) and line size (L)
-2. Choose the cache type (D-> Direct mapping, F-> Full associate, S-> Set associative)
+2. Choose the cache type (D-> Direct mapping, F-> Fully associate, S-> Set associative)
 3. Specify the number of cycles of the hit access
 4. Enter the name of the memory file
 
